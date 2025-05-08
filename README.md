@@ -67,7 +67,7 @@ The main entities and their relationships are:
 ## Entity-Relationship Diagram (ERD)
 
 Below is a conceptual ERD for the Clinic Booking System.
-*(You would typically generate this with a tool like MySQL Workbench, draw.io, Lucidchart, etc., and embed the image or link to it here.)*
+
 
 **Conceptual ERD Description:**
 
@@ -76,10 +76,7 @@ Below is a conceptual ERD for the Clinic Booking System.
 *   `Doctors` --1:M-- `Appointments` (A doctor can have many appointments)
 *   `Services` --1:M-- `Appointments` (An appointment can be for one primary service)
 
-*(Imagine a diagram here showing these relationships)*
 
-**Link to ERD image (if hosted separately):**
-[Link to your ERD image if you upload it, e.g., to GitHub itself or an image hosting service]
+## Entity-Relationship Diagram (ERD)
 
-**Screenshot (placeholder):**
-`[ERD_Screenshot.png]` (You would add this image to your repository)
+![Clinic Booking System ERD](ERD_Clinic_Booking_System.png)
